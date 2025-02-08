@@ -1,0 +1,631 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    cursor: pointer;
+    transition: 1s;
+}
+
+img:hover{
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+.centercontent{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.mainnavbarofthepage{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    animation: slideup 3s ease-in;
+    animation-delay: 0;
+    justify-content: space-evenly;
+}
+
+.logoofmainnavbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.logoofmainnavbar:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.logo_figure{
+    width: 30px;
+    height: 30px;
+    border-radius: 50% 0% 0 0%;
+    background: #CDA274;
+}
+
+.maincontainerofnavbar{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+}
+
+.maincontainerofnavbaritem a{
+    color: #000;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.maincontainerofnavbaritem:hover{
+    transition: 1s;
+    transform: scale(1.1);
+    background: #CDA274;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.mainimgofmain{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-image: url('assets/about/img.png');
+    background-size: cover;
+    animation: slideup 3s ease-in;
+    animation-delay: 0;    
+}
+
+.aboutuspage{
+    width: 300px;
+    height: 150px;
+    background: #fff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 50px 50px 0px 0px;
+    animation: slideup 3s ease-in;
+    animation-delay: 0;
+}
+
+.cardofpage{
+    width: 500px;
+    height: 250px;
+    border-radius: 20px;
+    border-right: 10px solid #CDA274;
+    border-left: 10px solid #CDA274;
+    border-top: none;
+    border-bottom: none;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    text-align: center;
+    gap: 20px;
+    padding: 30px 20px;
+    cursor: pointer;
+    transition: 1s;
+    animation: slideup 3s ease-in;
+    animation-delay: 3s;
+}
+
+.cardofpage:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.cardofpage h1{
+    font-size: 70px;
+}
+
+.mainflexcontainer{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    padding: 100px;
+    animation: slideup 3s ease-in;
+    animation-delay: 8s;
+}
+
+.flexitemtxt{
+    width: 50%;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.button{
+    width: 200px;
+    background: #292F36;
+    height: auto;
+    padding: 15px 0;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.button:hover{
+    transition: 1s;
+    transform: scale(1.05);
+    background: #fff;
+    border: 2px solid #292F36;
+    color: #292F36;
+}
+
+.maindivofmainofcandidates{
+    width: 100%;
+    height: 100vh;
+    background: #CDA274;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.mainofcandidates{
+    width: 850px;
+    display: flex;
+    justify-content: space-between;
+    height: 250px;
+    animation: slideup 3s ease-in;
+    animation-delay: 13s;
+}
+
+.mainofcandidatescard{
+    width: 170px;
+    height: 100%;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.mainofcandidatescard:hover{
+    transition: 1s;
+    transform: scale(1.1);
+    box-shadow: 10px 10px 30px #000;
+}
+
+.mainofcandidatescard:nth-child(1){
+    background-image: url('assets/about/img10.png');
+    background-size: cover;
+}
+
+.mainofcandidatescard:nth-child(2){
+    background-image: url('assets/about/img3.png');
+    background-size: cover;
+}
+
+.mainofcandidatescard:nth-child(3){
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    font-size: 15px;
+    padding: 40px 0;
+    gap: 20px;
+
+}
+
+.mainofcandidatescard:nth-child(4){
+    background-image: url('assets/about/img4.png');
+    background-size: cover;
+}
+
+.contactofmain{
+    width: 100%;
+    height: 850px;
+    padding: 250px 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: slideup 3s ease-in;
+    animation-delay: 16s;
+}
+
+.flexboxforinputs{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    gap: 70px;
+    margin-top: 20px;
+}
+
+.flexboxforinputs input{
+    height: 40px;
+    width: 50%;
+}
+
+input{
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: 2px solid #000;
+    outline: none;
+    transition: 1s;
+}
+
+input:hover{
+    transition: 1s;
+    transform: scale(1.05);
+}
+
+.messageinput{
+    height: 200px;
+    width: 100%;
+}
+
+.footerofthispage{
+    width: 100%;
+    height: 60vh;
+    animation: slideup 3s ease-in;
+    animation-delay: 20s;
+}
+
+.mainfooteroffooter{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 70px 0;
+}
+
+.containeroffooter2{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+.iconsofmainofcandidatescard{
+    display: flex;
+    gap: 15px;
+}
+
+.containerofulofthepage{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+}
+
+.copyrightofthepage{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes slideup{
+    0%{
+        opacity: 0;
+        transform: translateY(70px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+        visibility: visible;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.name{
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}  
+.main5 img{
+    transition-duration: 2s;
+} 
+.main5 img:hover{
+    transform: scale(1.1);
+    transition-duration: 2s;
+    cursor: pointer;
+}
+.main6 img{
+    transition-duration: 2s;
+    cursor: pointer;
+}
+.main6 img:hover{
+    transform: scale(1.1);
+    transition-duration: 2s;
+    cursor: pointer;
+}
+.main7 img{
+    transition-duration: 2s;
+    cursor: pointer;
+}
+.main7 img:hover{
+    transform: scale(1.1);
+    transition-duration: 2s;
+    cursor: pointer;
+}
+.main8 img{
+    transition-duration: 2s;
+    cursor: pointer;
+}
+.main8 img:hover{
+    transform: scale(1.1);
+    transition-duration: 2s;
+    cursor: pointer;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-right: 100px;
+}
+ul li{
+    transition-duration: 1s;
+    cursor: pointer;
+   
+}
+ul li:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+    color: blue;
+}
+.name img{
+    width: 25px;
+    height: 25px;
+}
+.main{
+    width: 100%;
+    height: 60vh;
+    background-image: url(assets/services/img1.jpg);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.card{
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    background-color: white;
+    padding-top: 30px;
+    border-radius: 50px 50px 0 0px;
+}
+.main2{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+
+}
+.fox{
+    width: 300px;
+    height: 180px;
+    text-align: center;
+    transition-duration: 1s;
+    border-radius: 20px;  
+
+}
+.fox:hover{
+    transform: scale(1.1);
+    background-color: aquamarine;
+    cursor: pointer;
+    transition-duration: 2s;
+}
+.main3{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.foxx{
+    width: 300px;
+    height: 180px;
+    text-align: center;
+    border-radius: 20px;
+    transition-duration: 1s;
+}
+.foxx:hover{
+    transform: scale(1.1);
+    background-color: aqua;
+    cursor: pointer;
+    transition-duration: 2s;
+}
+.main4{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cardd{
+    width: 500px;
+    height: 200px;
+    text-align: center;
+}
+.cardd p{
+    font-size: 17px;
+}
+.main5{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+.card3{
+    width: 400px;
+    height: 300px;
+}
+.card3 p{
+    font-size: 18px;
+}
+.main6{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+.main7{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+.main8{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+.section{
+    width: 100%;
+    height: 40vh;
+    background-color: #292F36;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+.card5{
+    color: white;
+    text-align: center;
+}
+.card5 button{
+    padding: 10px 15px;
+    background-color: #cda274;
+    border: none;
+    border-radius: 10px;
+}
+.footer{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.card10{
+    width: 300px;
+    height: 150px;
+    cursor: pointer;
+}
+.logoo{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 50px;
+    gap: 10px;
+    cursor: pointer;
+}
+.logoo img{
+    width: 25px;
+    height: 25px;
+}
+.imgs{
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 30px;
+    padding-bottom: 20px;
+}
+.ull{
+    margin-top: 30px;
+}
+.img:hover{
+    transform: scale(1.1);
+}
+button{
+    transition-duration: 1s;
+}
+button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition-duration: 2s;
+    background-color: green;
+    color: white;
+}
+ul{
+    cursor: pointer;
+}

@@ -1,0 +1,13 @@
+nav - ikki marta ishlatilgan
+li - tagi o'zi ishlatilgan
+alt yozilmagan
+class muammo
+inline style ishlatilgan
+anchor taglar bitta li ichiga yozilgan
+10 xato: htmlvalidator
+box-model o'rniga, br berilgan
+bitta elementga ikkita class attribute berilgan
+bitta sahifada birdan ortiq h1 ishlatilgan
+======================= home section =======================
+
+====================== about section ======================
